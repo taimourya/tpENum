@@ -1,9 +1,9 @@
 package tpENum;
-// yahya hachkeurr
+
 public enum Jour {
 	LUNDI(8), MARDI(8), MERCREDI(4), JEUDI(8), VENDREDI(7), SAMEDI(0), DIMANCHE(0);
 	private int nbHeur;
-	
+	int a;
 	Jour(int nbHeur)
 	{
 		this.nbHeur = nbHeur;
